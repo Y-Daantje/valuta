@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+body {
+  font-family: "nunito Sans", sans-serif;
+  background-color: #dbdbdb;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.btn-outline-custom {
+  color: #31374a;
+  border-color: #797979;
+}
+
+.btn-outline-custom:hover {
+  color: #31374a;
+  background-color: #cccccc;
+}
+
+.bg-holder {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.divider-content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #999;
+}
+
+.divider {
+  margin: 2rem 0;
+}
+
+#Home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      45deg,
+      rgba(145, 113, 8, 0.9) 0%,
+      rgba(83, 68, 68, 0.9) 100%
+    ),
+    center center no-repeat;
+  background-size: cover;
+}
+
+.faq-home {
+  width: 100%;
+  height: 200vh;
+  background: linear-gradient(rgb(134, 134, 134), rgb(218, 218, 218));
+  background-size: cover;
+}
+
+.header-scrolled {
+  background: rgba(14, 11, 39, 0.7);
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink {
+    background-color: rgba(17, 18, 18, 0.425);
+  }
+}
+
+/* faq */
+.faq-p {
+  font-size: 80px;
+}
+
+.video{
+  overflow: hidden;
+}
