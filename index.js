@@ -7,7 +7,6 @@ const app = express();
 const port = 3000;
 
 const databaseUrl = process.env.CONNECTION_URL;
-const client = new MongoClient(databaseUrl);
 
 app.use(express.static("public"));
 
